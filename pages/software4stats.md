@@ -19,11 +19,11 @@ There are three options to work with the software:
 3. To install all required packages, please copy and paste this line of code in your R console.
 
 ```
-source("https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/master/install.R")
+source("https://raw.githubusercontent.com/statOmics/SGA2019/master/install.R")
 ```
 
 - Download and unzip pda master tree of the course to have the latest versions of the shiny apps.
-	- Go to the pda site on github: [https://github.com/statOmics/statisticalGenomicsCourse2019](https://github.com/statOmics/statisticalGenomicsCourse2019)
+	- Go to the pda site on github: [https://github.com/statOmics/SGA2019](https://github.com/statOmics/SGA2019)
 	- Click on the clone/download button and select download zip
 ![](./fig/downloadPdaMasterTree.png)
 	- Unzip the repository
@@ -34,4 +34,4 @@ source("https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse201
 
 - Launch an R studio interface in an R docker along with bioconductor packages for proteomics.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/statisticalGenomicsCourse2019/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/SGA2019/master?urlpath=rstudio)

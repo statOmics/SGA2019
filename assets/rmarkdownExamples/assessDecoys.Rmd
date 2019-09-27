@@ -14,7 +14,7 @@ We show the first 6 rows of data.
 ```{r}
 library(mzID)
 library(tidyverse)
-dataFlat <- mzID("https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/data/identification/peptideShakerTutorial.mzid") %>% flatten
+dataFlat <- mzID("https://raw.githubusercontent.com/statOmics/SGA2019/data/identification/peptideShakerTutorial.mzid") %>% flatten
 head(dataFlat)
 ```
 

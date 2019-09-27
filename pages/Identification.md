@@ -56,7 +56,7 @@ Figure 2. Illustration of the target and decoy distributions, in grey the histog
 
 When working with the online binder version, hit the binder button below:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/statisticalGenomicsCourse2019/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/SGA2019/master?urlpath=rstudio)
 
 Upon hitting the binder button an interactive statistical programming environment will open that is running on a cloud server. In this tutorial we will not make use of the powerful R-scripting environment, but we will launch an App with a GUI instead. Open the launchEvalDecoyShinyApp.R file by clicking on the file in the bottom right panel.
 
@@ -64,7 +64,7 @@ Upon hitting the binder button an interactive statistical programming environmen
 
 If you use the software on a more regular basis installing it in a local environment is advised, (see [software page](./software4stats.md)).
   - Open the RStudio app
-  - Open the launchEvalDecoyShinyApp.R file in the folder where you unzipped the statisticalGenomicsCourse2019 master
+  - Open the launchEvalDecoyShinyApp.R file in the folder where you unzipped the SGA2019 master
 
 
 A novel panel opens in the topleft. Click on runApp to launch the EvalDecoy app.
@@ -110,7 +110,7 @@ Evaluate the TDA for the  X!Tandem, OMSSA and Peptide Shaker scores. What do you
 
 ##### 2. Pyrococcus - Peptide Shaker - Uniprot search
 
-Users familiar with R are advised to download the notebook [assessDecoys.Rmd](https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/gh-pages/assets/assessDecoys.Rmd)  and to alter it for the analysis in th.
+Users familiar with R are advised to download the notebook [assessDecoys.Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/assessDecoys.Rmd)  and to alter it for the analysis in th.
 
 Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores based on all Pyrococcus proteins in a search against all pyrococcus peptides in Uniprot (data/identification/pyroUniprot.mzid).
 

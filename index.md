@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Statistical Genomics
+title: Statistical Genomics Analysis 2019 (SGA2019)
 ---
 
 ![IntroFig](./pages/figs/IntroFig.png)

@@ -21,8 +21,8 @@ We first import the peptides.txt file. This is the file that contains your pepti
 We will use the MSnbase package to import the data.
 
 We generate the object peptideFile with the path to the peptides.txt file.
-In this file we will fetch the data from the github repository linked to the pda course: https://statomics.github.io/pda.
-You can also replace the peptideFile with a string that points to the path of a file on your local hard drive. 
+In this file we will fetch the data from the github repository linked to the pda course: https://statomics.github.io/SGA2019.
+You can also replace the peptideFile with a string that points to the path of a file on your local hard drive.
 With the grepEcols function we find the columns that are containing the expression data of the peptides in the peptides.txt file.
 
 ```{r, warning=FALSE, message=FALSE}
@@ -30,8 +30,8 @@ library(MSqRob)
 library(MSnbase)
 library(tidyverse)
 library(limma)
-peptidesFile <- "https://raw.githubusercontent.com/statOmics/pda/data/quantification/cptacAvsB_lab3/peptides.txt"
-proteinGroupsFile <-"https://raw.githubusercontent.com/statOmics/pda/data/quantification/cptacAvsB_lab3/proteinGroups.txt"
+peptidesFile <- "https://raw.githubusercontent.com/statOmics/SGA2019/data/quantification/cptacAvsB_lab3/peptides.txt"
+proteinGroupsFile <-"https://raw.githubusercontent.com/statOmics/SGA2019/data/quantification/cptacAvsB_lab3/proteinGroups.txt"
 ecols<-grepEcols(peptidesFile, "Intensity ", split = "\t")
 ```
 
@@ -268,7 +268,7 @@ nSig <- sum(tests$signif,na.rm=TRUE)
 head(tests,nSig)
 ```
 
-There are `r nSig` proteins with a significant effect at the 5% FDR level. 
+There are `r nSig` proteins with a significant effect at the 5% FDR level.
 
 ## Plots
 
