@@ -5,9 +5,10 @@ Course site for Statistical Genomics lectured in the Master of Science in Bioinf
 
 Website
 ------
-https://statomics.github.io/statisticalGenomicsCourse/
+https://statomics.github.io/statisticalGenomicsCourse2019/
 
 Credits
 -------
-- The [rocker-binder team](https://github.com/rocker-org/binder) for providing a docker image with shiny proxy support.
+
+- R/binder 
 - Adriaan Sticker and Ludger Goeminne, statOmics developers of MSqRob and saas.
