@@ -29,7 +29,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   1. Intro
   - Slides: [Intro](assets/intro.pdf)
-  - [Install and Launch Statistical Software](pages/software4stats.md)
+  - Software: [Install and Launch Statistical Software](pages/software4stats.md)
 
 **Part I: Quantitative proteomics**
 
@@ -46,7 +46,6 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   2. Identification
   - Slides:  [False Discovery Rate and Target Decoy Approach](assets/1_Identification_Evaluation_Target_Decoy_Approach.pdf)
   - Tutorial: [Evaluating Target Decoy Quality](pages/Identification.md)  
-
 
   3. Preprocessing & Analysis of Label Free Quantitative Proteomics Experiments with Simple Designs
   - Slides: [Preprocessing](assets/2_MSqRob_data_analysisI.pdf)

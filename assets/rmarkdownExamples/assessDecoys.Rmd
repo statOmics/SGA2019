@@ -8,11 +8,13 @@ author: Lieven Clement
 ##Load data
 mzid files can be loade via de mzID function in the mzID package.
 Because we prefer to work with a the data in a table format we flatten the data.
+We download the file from the web, but you can also replace the text string by a path to the file on your local computer.
 We show the first 6 rows of data.
 
 ```{r}
 library(mzID)
-dataFlat <- flatten(mzID("~/data/identification/peptideShakerTutorial.mzid"))
+library(tidyverse)
+dataFlat <- mzID("https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/data/identification/peptideShakerTutorial.mzid") %>% flatten
 head(dataFlat)
 ```
 
@@ -62,7 +64,6 @@ print(binwidth)
 ###PPplot of targets and decoys
 
 ```{r}
-library(dplyr)
 pi0 <- sum(data$decoy)/sum(!data$decoy)
 ppPlot <- ggplot()  +
 geom_abline(slope = pi0,color = 'black') +
