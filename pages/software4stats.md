@@ -22,8 +22,8 @@ There are three options to work with the software:
 source("https://raw.githubusercontent.com/statOmics/SGA2019/master/install.R")
 ```
 
-- Download and unzip pda master tree of the course to have the latest versions of the shiny apps.
-	- Go to the pda site on github: [https://github.com/statOmics/SGA2019](https://github.com/statOmics/SGA2019)
+- Download and unzip SGA2019 master tree of the course to have the latest versions of the shiny apps.
+	- Go to the SGA2019 site on github: [https://github.com/statOmics/SGA2019](https://github.com/statOmics/SGA2019)
 	- Click on the clone/download button and select download zip
 ![](./fig/downloadPdaMasterTree.png)
 	- Unzip the repository

@@ -34,7 +34,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   0. Software and Data
 
-  - [Download Tutorial Data](https://github.com/statOmics/statistalGenomicsCourse2019/tree/data)
+  - [Download Tutorial Data](https://github.com/statOmics/SGA2019/tree/data)
 
 
   1. Bioinformatics for proteomics

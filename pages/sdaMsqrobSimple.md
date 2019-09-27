@@ -46,7 +46,7 @@ Our first case-study is a subset of the data of the 6th study of the Clinical Pr
 ### 2.3.1. The Input tab
 
 Our first step is to choose an appropriate name for the project. This name, appended with a timestamp, will be used when downloading results from the analysis. Here, we use the name “project_CPTAC_AvsB”.
-Next, upload your peptides.txt file. This is the file that contains your peptide-level intensities. For a MaxQuant search [6], this peptides.txt file can be found by default in the “path_to_raw_files/combined/txt/” folder from the MaxQuant output, with “path_to_raw_files” the folder where raw files were saved. In this tutorial, we will use a MaxQuant peptides file from MaxQuant that can be found on the pdaData repository.
+Next, upload your peptides.txt file. This is the file that contains your peptide-level intensities. For a MaxQuant search [6], this peptides.txt file can be found by default in the “path_to_raw_files/combined/txt/” folder from the MaxQuant output, with “path_to_raw_files” the folder where raw files were saved. In this tutorial, we will use a MaxQuant peptides file from MaxQuant that can be found on the SGA2019Data repository.
 Similarly, upload the experimental annotation file which is called “label-free_CPTAC_annotation.xlsx”. This file should always be a tab-delimited file or an Office Open XML spreadsheet file (“.xlsx” file). Figure 4. shows how this file looks like for our experiment. One column (the “run” column in Fig. 3) of the experimental annotation file should always contain the names of the MS runs. For MaxQuant, these are the names given in the “Experiment” column when the data was searched. The names should be unique. Other columns indicate other variables related to the design that can affect protein expression; here this is only the treatment/spike-in condition.
 
 ![Figure 5. Lab 3 Annotation](./figs/lab3Annotation.png)
@@ -65,7 +65,7 @@ The preprocessing tab features different preprocessing options, many of which ca
 ![Figure 7. MSqRob Preprocessing tab](./figs/MSqRobPreprocessing1.png)
 
 For MaxQuant data exclusively, there is an option to “Remove proteins only identified by site”. This allows for removing proteins that are only identified by peptides that carry one or more modified amino acids. Identification of such peptides in the background of non-modified peptides is often less reliable, and proteins only identified by such peptides are therefore removed in a typical MaxQuant-Perseus workflow. We offer the option to do a similar filtering in MSqRob. The MaxQuant's proteinGroups.txt file  is needed for this purpose. By default, this file can be found in the “combined/txt/” folder.
-This file can be found on the pdaData repository.
+This file can be found on the SGA2019Data repository.
 After uploading the proteinGroups.txt file, a diagnostic plot is produced for the raw data upon log-transformation. Select “condition” as the color variable. The diagnostic plots are now colored according to spike-in condition.
 
 ![Figure 8. MSqRob Preprocessing tab upon log2 transformation](./figs/MSqRobPreprocessing2.png)
@@ -174,7 +174,7 @@ Users who are not familiar with R can do the analysis with the GUI and they can 
 
 ##### 2.4.1.The Input tab
 Restart MSqRob GUI. The MSqRob settings for the Francisella dataset are very similar to the settings for the CPTAC dataset. Use the name “project_Francisella”. Next, upload the peptides.txt file from
-data/quantification/francisella on the pdaData repository.
+data/quantification/francisella on the SGA2019Data repository.
 
 Generate your own experimental annotation file by clicking the Generate Annotation File tab in the right panel of the input tab. Once it is generated a new button appears to download the annotation file.
 
