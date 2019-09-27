@@ -46,7 +46,7 @@ This can be rewritten as:
 $$ \widehat{\text{FDR}}(t)=\frac{\#decoys}{\#targets}\frac{\frac{\# decoys | x>t}{\#decoys}}{\frac{\#targets |x>t}{\#targets}} $$
 
 $$ \widehat{\text{FDR}}(x) =
-{\hat{\pi}_0}\frac{\color{red} \widehat{\int\limits_t^{+\infty} f_0(x) dx}}{\widehat{\int\limits_t^{+\infty} f(x)}dx} $$
+{\hat{\pi}_0}\frac{\widehat{\int\limits_t^{+\infty} f_0(x) dx}}{\widehat{\int\limits_t^{+\infty} f(x)dx}} $$
 
 Hence, the proportion of bad hits \\( \pi_0 \\) is estimated as the number of decoys divided by the number of targets, and the competitive TDA assumes that it is equally likely that a bad hit matches to a bad target or to a decoy; the probability of  a (bad) target PSM hit above the threshold is estimated based on the empirical cumulative distribution in the sample, i.e. as the fraction of targets (decoys) that are above the threshold. Hence, a second assumption is that the decoy matches provide a good simulation of the target matches. See e.g. [2]. These assumptions can be evaluated with our EvalDecoyShiny App.
 
@@ -56,13 +56,16 @@ Figure 2. Illustration of the target and decoy distributions, in grey the histog
 
 When working with the online binder version, hit the binder button below:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/pda/master?urlpath=rstudio)
-
-If you use the software on a more regular basis building a local docker environment is advised, (see [software page](./software4stats.md)).
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/statisticalGenomicsCourse2019/master?urlpath=rstudio)
 
 Upon hitting the binder button an interactive statistical programming environment will open that is running on a cloud server. In this tutorial we will not make use of the powerful R-scripting environment, but we will launch an App with a GUI instead. Open the launchEvalDecoyShinyApp.R file by clicking on the file in the bottom right panel.
 
 <img src="./figs/rstudioWindowEvalDecoy.png" height="200">
+
+If you use the software on a more regular basis installing it in a local environment is advised, (see [software page](./software4stats.md)).
+  - Open the RStudio app
+  - Open the launchEvalDecoyShinyApp.R file in the folder where you unzipped the statisticalGenomicsCourse2019 master
+
 
 A novel panel opens in the topleft. Click on runApp to launch the EvalDecoy app.
 
@@ -106,7 +109,12 @@ Open the search from tutorial 1.3. in Peptide Shaker and export the search to an
 Evaluate the TDA for the  X!Tandem, OMSSA and Peptide Shaker scores. What do you observe and try to explain. [1.4.a]
 
 ##### 2. Pyrococcus - Peptide Shaker - Uniprot search
-Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores based on all Pyrococcus proteins in a search against all pyrococcus peptides in Uniprot (data/identification/pyroUniprot.mzid). What do you observe explain. [1.4.b]
+
+Users familiar with R are advised to download the notebook [assessDecoys.Rmd](https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/gh-pages/assets/assessDecoys.Rmd)  and to alter it for the analysis in th.
+
+Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores based on all Pyrococcus proteins in a search against all pyrococcus peptides in Uniprot (data/identification/pyroUniprot.mzid).
+
+What do you observe explain. [1.4.b]
 
 ##### 3. Pyrococcus/Peptide Shaker - Swiss prot search
 Do the analysis for the search MSGF+, X!Tandem, OMSSA and Peptide Shaker scores for Pyrococcus based on the curated proteins from swissprot only (data/identification/pyroSwissprot.mzid). What do you observe. Try to explain. [1.4.c]

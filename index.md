@@ -27,7 +27,6 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
 **Introduction**
 
-  1. Intro
   - Slides: [Intro](assets/intro.pdf)
   - Software: [Install and Launch Statistical Software](pages/software4stats.md)
 

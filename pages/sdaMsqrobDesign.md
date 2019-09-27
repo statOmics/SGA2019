@@ -24,16 +24,16 @@ Figure 1. Example of a good (A) and a bad (B) design. In design A, both the gree
 
 #### 3.2 Using MSqRob
 
-Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/pda/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of both examples below.
+Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of both examples below.
 
 Users who are not familiar with R can use the MSqRob GUI. For installation instruction see [Install and Launch Statistical Software](./software4stats.md)
 
 When working with the online binder version, hit the binder button below:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/statOmics/pda/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/statOmics/statisticalGenomicsCourse2019/master?urlpath=rstudio)
 
 
-If you use the software on a more regular basis building a local docker environment is advised, (see [software page](./software4stats.md)).
+If you use the software on a more regular basis installing it in a local environment is advised, (see [software page](./software4stats.md)).
 
 Upon hitting the binder button an interactive statistical programming environment will open that is running on a cloud server. Open the launchMSqRobShinyApp.R file by clicking on the file in the bottom right panel.
 
@@ -64,7 +64,7 @@ Three subsets of the data are avialable:
 - peptidesRCB.txt: contains data for 4 bio-repeats only, but for each bio-repeat the Treg and Tconv proteome is profiled.   
 - peptides.txt: contains data of Treg and Tconv cells for 7 bio-repeats
 
-Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/pda/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of the Mouse T-cell example.
+Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of the Mouse T-cell example.
 Users who are not familiar with R can do the analysis with the GUI.
 
 ##### 3.3.1. How would you analyse the CRD data?
@@ -85,7 +85,7 @@ Suppose that researchers are mainly interested in comparing the ventricular to t
 Particularly, they would like to compare the left atrium to the left ventricle, the right atrium to the right ventricle, the average ventricular vs atrial proteome and if ventricular vs atrial proteome shifts differ between left and right heart region.
 
 
-Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/pda/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of the heart example.
+Users familiar with R are advised to download the notebook [cptacAvsB_lab3.Rmd](https://raw.githubusercontent.com/statOmics/statisticalGenomicsCourse2019/gh-pages/assets/cptacAvsB_lab3.Rmd)  and to alter it for the analysis of the heart example.
 Users who are not familiar with R can do the analysis with the GUI.
 
 ##### 3.4.1. Which factors will you use in the mean model?
