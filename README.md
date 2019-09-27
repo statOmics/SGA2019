@@ -5,7 +5,7 @@ Course site for Statistical Genomics lectured in the Master of Science in Bioinf
 
 Website
 ------
-https://statomics.github.io/statisticalGenomicsCourse2019/
+https://statomics.github.io/SGA2019/
 
 Credits
 -------
