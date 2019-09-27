@@ -32,8 +32,6 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
 **Part I: Quantitative proteomics**
 
-  0. Software and Data
-
   - [Download Tutorial Data](https://github.com/statOmics/SGA2019/tree/data)
 
 
