@@ -52,6 +52,8 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   - Slides: [Inference](assets/2_MSqRob_data_analysisII.pdf)
   - Tutorial: [Statistical Data Analysis with MSqRob for Factorial Designs](pages/sdaMsqrobDesign.md)
 
+  5. [Technical details of linear models](assets/parameterEstimationInferenceLinearModels.pdf)
+
 **Part II: Next-generation sequencing**
 
 ---
