@@ -53,10 +53,8 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   - Tutorial: [Statistical Data Analysis with MSqRob for Factorial Designs](pages/sdaMsqrobDesign.md)
 
   5. Technical details of linear models
-
-    - Slides: [technical](assets/parameterEstimationInferenceLinearModels.pdf)
-    - example: [rmd](https://raw.githubusercontent.com/statOmics/SGA2019/master/rmarkdownExamples/robustRegression.Rmd)
-    [html](pages/robustRegression.nb.html)
+  - Slides: [Inference](assets/parameterEstimationInferenceLinearModels.pdf)
+  - Example: [html](pages/robustRegression.nb.html)
 
   6. Stagewise testing: Omnibus test and post hoc analysis: [slides](assets/stagewiseTesting.pdf)
 
