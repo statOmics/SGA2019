@@ -54,9 +54,9 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   5. Technical details of linear models
 
-    - [slides](assets/parameterEstimationInferenceLinearModels.pdf)
+    - Slides: [technical](assets/parameterEstimationInferenceLinearModels.pdf)
     - example: [rmd](https://raw.githubusercontent.com/statOmics/SGA2019/master/rmarkdownExamples/robustRegression.Rmd)
-    [html](./robustRegression.nb.html)
+    [html](pages/robustRegression.nb.html)
 
   6. Stagewise testing: Omnibus test and post hoc analysis: [slides](assets/stagewiseTesting.pdf)
 
