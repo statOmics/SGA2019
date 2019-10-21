@@ -59,7 +59,9 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   6. Stagewise testing: Omnibus test and post hoc analysis: [slides](assets/stagewiseTesting.pdf)
 
   7. Homework 2: Analysis of the heart example from the tutorial page in 4. Do the analysis with MSqRob. For one protein we will do the analysis with the functions lm, rlm and matrix algebra. Use the rmarkdownfile below as a template. Use as name: Namegroupmember1Namegroupmember2Namegroupmember3_SGA2019_Homework2.Rmd
-  [Homework2.Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/rmarkdownExamples/Homework2.Rmd)
+
+  - [Homework2.Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/rmarkdownExamples/Homework2.Rmd)
+
 **Part II: Next-generation sequencing**
 
 ---
