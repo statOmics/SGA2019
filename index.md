@@ -68,6 +68,10 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
 **Part II: Next-generation sequencing**
 
+  1. Introduction to transcriptomics with next generation sequencing
+
+    - [Slides](assets/rnaseq1.pdf)
+  
 ---
 
 ##### [Instructors](pages/instructors.md)
