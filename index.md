@@ -70,7 +70,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   1. Introduction to transcriptomics with next generation sequencing
 
-  slides: [intro](assets/rnaseq1.pdf)
+  - slides: [intro](assets/rnaseq1.pdf)
 
 ---
 
