@@ -75,10 +75,11 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   - slides: [intro](assets/rnaseq1.pdf)
   - tutorial
 
-      - Data:
       - Mapping: [html](pages/elegansMappingCountTable.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/elegansMappingCountTable.Rmd)
       - Differential Analysis: [html](pages/elegans.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/elegans.Rmd)
-
+      - Background for the airway example (count table on small fastQ files available in the Tutorial Data to be prepared by Monday November 4th 2019):
+      [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airwayMappingCountTable.Rmd)
+      
 ---
 
 ##### [Instructors](pages/instructors.md)
