@@ -70,9 +70,9 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   1. Introduction to transcriptomics with next generation sequencing
 
-    - slides: [intro](assets/rnaseq1.pdf)
-    - tutorial
-    
+  - slides: [intro](assets/rnaseq1.pdf)
+  - tutorial
+
       - Data:
       - Mapping: [html](pages/elegansMappingCountTable.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/elegansMappingCountTable.Rmd)
       - Differential Analysis: [html](pages/elegans.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/elegans.Rmd)
