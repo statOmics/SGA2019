@@ -79,6 +79,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
       - Differential Analysis: [html](pages/elegans.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/elegans.Rmd), which source of variability is not included in the analysis and how could we account for this? Try to adjust the script accordingly.  
       - Background for the airway example (count table on small fastQ files available in the Tutorial Data to be prepared by Monday November 4th 2019):
       [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airwayMappingCountTable.Rmd)
+      - Airway entire analysis: genome index [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airwayGenomeIndex.Rmd), [html](assets/airwayGenomeIndex.html), read mapping and count table [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airwayMappingCountTableCor.Rmd),[html](assets/airwayMappingCountTableCor.html), DE analysis [Rmd]((https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway.Rmd), [html](assets/airway.html)
 
   2. More Complex Designs
 
@@ -91,6 +92,8 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
       ```
 
       - Paired-end sequencing was performed on primary cultures from parathyroid tumors of 4 patients at 2 time points over 3 conditions (control, treatment with diarylpropionitrile (DPN) and treatment with 4-hydroxytamoxifen (OHT)). DPN is a selective estrogen receptor agonist and OHT is a selective estrogen receptor modulator. One sample (patient 4, 24 hours, control) was omitted by the paper authors due to low quality. Data, the count table and information on the experiment is available at http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37211. It is not required to do the read mapping!
+
+      - Submit your RMD scripts via Ufora by Wednesday November 20th 2019   
 
 ---
 
