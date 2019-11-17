@@ -97,7 +97,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   3. Technical details on transcriptomics with next generation sequencing. Generalized linear models are introduced in the slides and bulk RNA-seq tools via their corresponding papers
 
-      - [slides on GLM]((assets/rnaseq2.pdf)
+      - [slides on GLM](assets/rnaseq2.pdf)
       - [edgeR: Negative Binomial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3378882/)
       - [DESeq2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4302049/)
       - [voom](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053721/)
