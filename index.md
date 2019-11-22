@@ -104,6 +104,17 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
       - [voom](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053721/)
       - [edgeR: Quasi Negative Binomial](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.9634&rep=rep1&type=pdf)
 
+4. Solutions
+
+- hammer edgeR: [html](assets/hammer.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer.Rmd)
+- parathyroid (few comments in file, template for discussion):
+[html](assets/parathyroid.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid.Rmd)
+- hammer QL:
+[html](assets/hammer_quasi.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi.Rmd)
+- hammer DESeq2:
+[html](assets/hammer_DESEQ2.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_DESEQ2.Rmd)
+
+
 
 
 
