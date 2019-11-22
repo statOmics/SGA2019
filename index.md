@@ -107,7 +107,9 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 4. Solutions
 
 - hammer edgeR: [html](assets/hammer.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer.Rmd)
-- parathyroid (few comments in file, template for discussion):
+- hammer alternative coding:
+[html](assets/hammerAlternativeCoding.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammerAlternativeCoding.Rmd)
+- parathyroid (few comments in file, template for discussions):
 [html](assets/parathyroid.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid.Rmd)
 - hammer QL:
 [html](assets/hammer_quasi.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi.Rmd)
