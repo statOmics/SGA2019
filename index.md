@@ -127,6 +127,8 @@ salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fa
     - hammer QL: [html](assets/hammer_quasi.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi.Rmd)
     - hammer DESeq2:
     [html](assets/hammer_DESEQ2.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_DESEQ2.Rmd)
+    - hammer QL + stagewiseTesting:
+    [html](assets/hammer_quasi_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi_stagewise.Rmd)
 
 
 
