@@ -107,7 +107,17 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   4. DE analysis starting from transcript level counts
 
       - [Soneson et al. 2016](https://f1000research.com/articles/4-1521/v2)
+      - Building index with salmon
+      ```
+      salmon index --gencode -t gencode.v32.transcripts.fa -i gencode.v32_salmon_index
+      ```
+      - Mapping one sample with salmon:
+      ```
+salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fastq -2 SRR1039508_subset_2.fastq --validateMappings -o quant/SRR1039508_subset_quant
+```
+
       - airway with DESeq2: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_DESeq2.Rmd);[html](assets/airway_salmon_DESeq2.html)
+
 
 4. Solutions
 
