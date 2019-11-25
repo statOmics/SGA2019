@@ -115,7 +115,7 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
       ```
 salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fastq -2 SRR1039508_subset_2.fastq --validateMappings -o quant/SRR1039508_subset_quant
 ```
-      - (Intro to salmon)[https://combine-lab.github.io/salmon/getting_started/]
+      - [Intro to salmon](https://combine-lab.github.io/salmon/getting_started/)
       - airway with DESeq2: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_DESeq2.Rmd);[html](assets/airway_salmon_DESeq2.html)
 
 
