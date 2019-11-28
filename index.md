@@ -131,7 +131,7 @@ salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fa
     [html](assets/hammer_quasi_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi_stagewise.Rmd)
 
 5. Single Cell analysis
-    - [Slides](scRNA-seq.pdf)
+    - [Slides](assets/scRNA-seq.pdf)
     - Orchestrating Single Cell: [workshopVignette](http://biocworkshops2019.bioconductor.org.s3-website-us-east-1.amazonaws.com/page/OSCABioc2019__OSCABioc2019/), [ebook](https://osca.bioconductor.org)
     - Analysis of multi-sample
 multi-group scRNA-seq data:  [pseudoBulk](http://biocworkshops2019.bioconductor.org.s3-website-us-east-1.amazonaws.com/page/muscWorkshop__vignette/)
