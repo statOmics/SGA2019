@@ -129,6 +129,8 @@ salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fa
     [html](assets/hammer_DESEQ2.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_DESEQ2.Rmd)
     - hammer QL + stagewiseTesting:
     [html](assets/hammer_quasi_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi_stagewise.Rmd)
+    - parathyroid Stagewise Testing(few comments in file, template for discussions): [html](assets/parathyroid_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid_stagewise.Rmd)
+    - parathyroid Stagewise Testing with average contrast (few comments in file, template for discussions): [html](assets/parathyroid_stagewise_avgContrast.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid_stagewise_avgContrast.Rmd)
 
 5. Single Cell analysis
     - [Slides](assets/scRNA-seq.pdf)
