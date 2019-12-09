@@ -117,6 +117,7 @@ salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fa
 ```
       - [Intro to salmon](https://combine-lab.github.io/salmon/getting_started/)
       - airway with DESeq2: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_DESeq2.Rmd);[html](assets/airway_salmon_DESeq2.html)
+      - airway with EdgeR: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_edgeR.Rmd);[html](assets/airway_salmon_edgeR.html)
 
 
 4. Solutions
