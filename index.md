@@ -66,6 +66,15 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
 
   - The homework is due by Tuesday 12/11/2019.
 
+  8. Solutions
+
+  - francisella:[html](pages/assets/francisella.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/francisella.Rmd)
+  - cancer3x3: [html](pages/assets/cancer_3x3.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_3x3.Rmd)
+  - cancer3x3: [html](pages/assets/cancer_9x9.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_9x9.Rmd)
+  - mouse CRD: [html](pages/assets/mouseCRD.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseCRD.Rmd)
+  - mouse RCB: [html](pages/assets/mouseRCB.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseRCB.Rmd)
+  - mouse RCB wrong analysis (no blocking): [html](pages/assets/mouseRCB_wrong_analysis.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseRCB_wrong_analysis.Rmd)
+  
 **Part II: Next-generation sequencing**
 
   - [Download Tutorial Data](https://github.com/statOmics/SGA2019/tree/data-rnaseq)
