@@ -59,15 +59,14 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   6. Stagewise testing: Omnibus test and post hoc analysis: [slides](assets/stagewiseTesting.pdf)
 
   7. Homework 2: Analysis of the heart example from the tutorial page in 4. Do the analysis with MSqRob. For one protein we will do the analysis with the functions lm, rlm and matrix algebra. Use the rmarkdownfile below as a template.
-
   - Use as name: Namegroupmember1Namegroupmember2Namegroupmember3_SGA2019_Homework2.Rmd
-
   - [Homework2.Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/rmarkdownExamples/Homework2.Rmd)
-
   - The homework is due by Tuesday 12/11/2019.
 
   8. Solutions
 
+  - Identification Uniprot:[html](assets/assessDecoysUniprot.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/assessDecoysUniprot.Rmd)
+  - Identification Swissprot:[html](assets/assessDecoysSwissprot.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/assessDecoysSwissprot.Rmd)
   - francisella:[html](assets/francisella.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/francisella.Rmd)
   - cancer3x3: [html](assets/cancer_3x3.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_3x3.Rmd)
   - cancer3x3: [html](assets/cancer_9x9.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_9x9.Rmd)
