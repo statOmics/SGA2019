@@ -63,6 +63,17 @@ The basis concepts may be revisited in the free e-book Practical Regression and 
   - [Homework2.Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/rmarkdownExamples/Homework2.Rmd)
   - The homework is due by Tuesday 12/11/2019.
 
+  8. Solutions
+
+  - Identification Uniprot:[html](assets/assessDecoysUniprot.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/assessDecoysUniprot.Rmd)
+  - Identification Swissprot:[html](assets/assessDecoysSwissprot.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/assessDecoysSwissprot.Rmd)
+  - francisella:[html](assets/francisella.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/francisella.Rmd)
+  - cancer3x3: [html](assets/cancer_3x3.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_3x3.Rmd)
+  - cancer3x3: [html](assets/cancer_9x9.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/cancer_9x9.Rmd)
+  - mouse CRD: [html](assets/mouseCRD.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseCRD.Rmd)
+  - mouse RCB: [html](assets/mouseRCB.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseRCB.Rmd)
+  - mouse RCB wrong analysis (no blocking): [html](assets/mouseRCB_wrong_analysis.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/mouseRCB_wrong_analysis.Rmd)
+
 **Part II: Next-generation sequencing**
 
   - [Download Tutorial Data](https://github.com/statOmics/SGA2019/tree/data-rnaseq)
@@ -116,6 +127,19 @@ salmon quant -i gencode.v32_salmon_index -l A --gcBias -1 SRR1039508_subset_1.fa
       - airway with DESeq2: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_DESeq2.Rmd);[html](assets/airway_salmon_DESeq2.html)
       - airway with EdgeR: [Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/airway_salmon_edgeR.Rmd);[html](assets/airway_salmon_edgeR.html)
 
+
+4. Solutions
+
+    - hammer edgeR: [html](assets/hammer.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer.Rmd)
+    - hammer alternative coding: [html](assets/hammerAlternativeCoding.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammerAlternativeCoding.Rmd)
+    - parathyroid (few comments in file, template for discussions): [html](assets/parathyroid.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid.Rmd)
+    - hammer QL: [html](assets/hammer_quasi.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi.Rmd)
+    - hammer DESeq2:
+    [html](assets/hammer_DESEQ2.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_DESEQ2.Rmd)
+    - hammer QL + stagewiseTesting:
+    [html](assets/hammer_quasi_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/hammer_quasi_stagewise.Rmd)
+    - parathyroid Stagewise Testing(few comments in file, template for discussions): [html](assets/parathyroid_stagewise.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid_stagewise.Rmd)
+    - parathyroid Stagewise Testing with average contrast (few comments in file, template for discussions): [html](assets/parathyroid_stagewise_avgContrast.html),[Rmd](https://raw.githubusercontent.com/statOmics/SGA2019/gh-pages/assets/parathyroid_stagewise_avgContrast.Rmd)
 
 5. Single Cell analysis
     - [Slides](assets/scRNA-seq.pdf)
